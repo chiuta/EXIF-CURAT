@@ -1,0 +1,20 @@
+[workspace]
+resolver = "2"
+members = ["crates/exif-curat-core", "crates/exif-curat-cli"]
+
+[workspace.package]
+version = "0.1.0-alpha.1"
+edition = "2024"
+rust-version = "1.88"
+license = "MIT"
+authors = ["Alexio"]
+repository = "https://github.com/chiuta/EXIF-CURAT"
+
+[workspace.dependencies]
+exif-curat-core = { path = "crates/exif-curat-core", version = "0.1.0-alpha.1" }
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 4
+strip = true

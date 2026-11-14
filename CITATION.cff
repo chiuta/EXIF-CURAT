@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use EXIF-CURAT in your work, please cite it as below."
+title: "EXIF-CURAT"
+abstract: "Metadata sanitizer and auditor: see and strip hidden data from files, memory-safe parsers, permissive licence."
+type: software
+authors:
+  - family-names: "Chiuță"
+    given-names: "Alexandru-Ionuț"
+    alias: "Alexio"
+repository-code: "https://github.com/chiuta/EXIF-CURAT"
+url: "https://exif-curat.chiuta.ro"
+license: MIT
+version: "0.1.0-alpha.1"
+date-released: 2026-11-13

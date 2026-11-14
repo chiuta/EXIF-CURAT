@@ -1,0 +1,16 @@
+[package]
+name = "exif-curat-cli"
+description = "Command-line tool for EXIF-CURAT"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+
+[[bin]]
+name = "exif-curat"
+path = "src/main.rs"
+
+[dependencies]
+exif-curat-core = { workspace = true }

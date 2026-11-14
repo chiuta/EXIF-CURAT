@@ -1,0 +1,10 @@
+[package]
+name = "exif-curat-core"
+description = "Metadata sanitizer and auditor"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+keywords = ["metadata", "privacy", "exif", "sanitizer"]
